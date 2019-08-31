@@ -1,34 +1,7 @@
-/*
- ============================================================================
- Name        : structure_operations.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-/* date structure - day month and year
- * use typedef
- * use #define
- * validation for name (no digits)
- * validation for phone number (10 diguts)
- *
- * position in add record, insert at that position
- * physical deletion also reqd
- * use pointer to array of structure
- *
- *
- *supermarket customer
- *fields: cust ID, cust name,cust mobile no,address, date of goods purchased, total amount (price)
- *custID : CSTS000
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
 #define MaxLen 50
-
-//int count = 0;
 
 typedef struct
 {
